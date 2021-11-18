@@ -14,7 +14,7 @@ console.log(nb1);//nb1 = 3
 ++nb1;
 console.log(nb1);//nb1 = 4
 
-//decrementation cst retirer 1
+//---decrementation cst retirer 1
 nb1 = nb1 - 1;
 //nb1 -= 1
 console.log(nb1); nb1 = 3
