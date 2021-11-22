@@ -41,7 +41,7 @@ document.write("<p>jusqu'a 2000e, il me faut : " + temps + " mois.</p>");
 //for
 var tps = 0;
 for (let mesSous = 1000; mesSous < 2000; mesSous+= 50) {
-    document.write("<p>Le mois suivant j ai : " + mesSous + "€.</p>");;
+    document.write("<p>Le mois suivant j ai : " + mesSous + "€.</p>");
     tps++;  
 }
 document.write("<p>il m aura fallu : " + tps + "mois.</p>");

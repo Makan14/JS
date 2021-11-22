@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width-device-width, initial-scale-1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <meta name='description' content=''>
+  <meta name='author' content='Makan MACALOU'>
+  <meta name='keywords' content=', , , '>
+  <link rel='stylesheet' href='css/style.css'>
+  <title>valeur finales</title>
+</head>
+<body>
+    <h1>valeurs finales</h1>
+    <h2>Examiner le prgrm suivant :</h2>
+    <pre>
+        var nb1 = Number(prompt("Entrez nb1 :"));
+        var nb2 = Number(prompt("Entrez nb2 :"));
+        var nb3 = Number(prompt("Entrez nb3 :"));
+
+        if(nb1 > nb2){
+            nb1 = nb3 * 2;
+        }else{
+            nb1++;
+            if(nb2 > nb3){
+                nb1 = nb1 + nb3 *3;
+            }else{
+                nb1 = 0;
+                nb3 = nb3 *2 + nb2;
+            }
+        }
+    </pre>
+
+    <h2>avnt de l exécuter, tenter de prévoir ls valeurs finales ds variables nb1, nb2 et nb3 en fonction de leurs valeurs initiales et complétez le tableau ci-dessous.</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>valeurs initiales</th>
+                <th>valeurs finales nb1</th>
+                <th>valeurs finales nb2</th>
+                <th>valeurs finales nb3</th>
+            </tr>
+        </thead>
+
+        <tbody >
+            <tr>
+                <td>nb1 = nb2 = nb3 = 4</td>
+                <td>0</td>
+                <td>4</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>nb1 = 4, nb2 = 3, nb3 = 2</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>nb1 = 2, nb2 = 4, nb3 = 0</td>
+                <td>3</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+  
+  <script src='09_valeurs.js'></script>
+</body>
+</html>
